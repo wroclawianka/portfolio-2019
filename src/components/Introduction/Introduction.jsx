@@ -19,9 +19,7 @@ class Introduction extends Component {
                         nunc.
                     </p>
                 </div>
-                <div className="main-picture">
-                    <img src={MainPicture}/>
-                </div>
+                <div className="main-picture"/>
             </div>
         )
     }
