@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Introduction from "./components/Introduction";
+import './index.css';
+import Introduction from "./components/Introduction/Introduction";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 const App = () => {
     return (
-       <div>
+       <div className="container">
            <Introduction/>
            <Portfolio/>
-           <Footer/>
        </div>
     )
 };
