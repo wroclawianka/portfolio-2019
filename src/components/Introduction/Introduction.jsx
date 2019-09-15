@@ -5,7 +5,15 @@ class Introduction extends Component {
     render() {
         return (
             <div id="intro" className="block">
-                <div className="page-title">Dorota Zelga</div>
+                <div className="page-title">
+                    <div className="title">Dorota Zelga</div>
+                    <div className="links">
+                        <a className="icon" href="https://github.com/wroclawianka/list-of-projects" target="_blank">
+                            <i className="fa fa-github" aria-hidden="true"/></a>
+                        <a className="icon" href="https://www.linkedin.com/in/dorotazelga" target="_blank">
+                            <i className="fa fa-linkedin" aria-hidden="true"/></a>
+                    </div>
+                </div>
                 <div className="content">
                     <p>
                         I am a <strong>Front-end developer</strong> working in IT since <strong>2014</strong>. In

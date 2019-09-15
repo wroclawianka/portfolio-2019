@@ -11,6 +11,12 @@
     font-family: 'Sedgwick Ave', cursive;
     font-size: 4vh;
     grid-area: page-title;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr auto;
+}
+.page-title .links a {
+    padding-left: 15px;
 }
 
 .content {
@@ -63,6 +69,22 @@
         writing-mode: vertical-lr;
         text-orientation: upright;
         font-size: 5vh;
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 20px;
+        letter-spacing: -4px;
+    }
+
+    .page-title .links {
+        font-size: 70%;
+    }
+
+    .page-title .links {
+        padding-left: 10px;
+    }
+
+    .page-title .links a {
+        padding-top: 10px;
     }
 
     .content {
