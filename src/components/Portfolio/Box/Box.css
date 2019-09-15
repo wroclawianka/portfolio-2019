@@ -1,0 +1,63 @@
+.project .image {
+    min-height: 300px;
+    min-width: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 0.5s;
+}
+
+.project:hover .image {
+    transform: scale(1.1);
+}
+
+.project .image .icons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    font-size: 260%;
+    color: #ffffff;
+    transition: opacity 2s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.project:hover .image .icons {
+    opacity: 1;
+    height: auto;
+
+}
+
+.project .image .icons a {
+    padding: 10px;
+}
+
+.project .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.project:hover .layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.project .project-title {
+    background-color: #ffffff;
+    width: 60%;
+    padding: 20px;
+    transform: translate(0%, -60%);
+    text-align: center;
+    transition: 1s;
+    font-size: 110%;
+}
+
+.project:hover .project-title {
+    font-weight: bolder;
+}

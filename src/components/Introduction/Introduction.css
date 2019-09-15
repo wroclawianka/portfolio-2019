@@ -1,0 +1,101 @@
+#intro {
+    display: grid;
+    grid-template-areas: "page-title page-title" "content mainPicture";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 10px;
+}
+
+.page-title {
+    padding: 10px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 4vh;
+    grid-area: page-title;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr auto;
+}
+.page-title .links a {
+    padding-left: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    grid-area: content;
+}
+
+.content p {
+    background: #ffffff;
+    padding: 20px;
+    font-size: 16px;
+    font-size: 2.5vh;
+}
+
+.main-picture {
+    background-image: url("../../assets/main-picture-vetrical.jpeg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: mainPicture;
+}
+
+@media only screen and (min-width: 500px) {
+    #intro {
+        padding: 30px;
+    }
+
+    .main-picture {
+        background-image: url("../../assets/main-picture-horizontal.jpeg");
+    }
+
+    .content p {
+        font-size: 16px;
+        font-size: 3.5vh;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #intro {
+        padding: 50px;
+        grid-template-rows: initial;
+        grid-template-areas: "page-title content mainPicture";
+        grid-template-columns: auto 1fr 0.7fr;
+    }
+
+    .page-title {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        font-size: 5vh;
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 20px;
+        letter-spacing: -4px;
+    }
+
+    .page-title .links {
+        font-size: 70%;
+    }
+
+    .page-title .links {
+        padding-left: 10px;
+    }
+
+    .page-title .links a {
+        padding-top: 10px;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .content p {
+        transform: translate(7%, 0%);
+        font-size: 16px;
+        font-size: 3vh;
+        padding: 50px;
+    }
+}
+
