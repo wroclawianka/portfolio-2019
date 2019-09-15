@@ -1,0 +1,37 @@
+#portfolio .title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#portfolio .content {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+}
+
+.project {
+    min-height: 300px;
+    min-width: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 650px) {
+    #portfolio .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #portfolio .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #portfolio .content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
