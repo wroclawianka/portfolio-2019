@@ -8,9 +8,11 @@ class Introduction extends Component {
                 <div className="page-title">
                     <div className="title">Dorota Zelga</div>
                     <div className="links">
-                        <a className="icon" href="https://github.com/wroclawianka/list-of-projects" target="_blank">
+                        <a className="icon" href="https://github.com/wroclawianka/list-of-projects" target="_blank"
+                           rel="noopener noreferrer">
                             <i className="fa fa-github" aria-hidden="true"/></a>
-                        <a className="icon" href="https://www.linkedin.com/in/dorotazelga" target="_blank">
+                        <a className="icon" href="https://www.linkedin.com/in/dorotazelga" target="_blank"
+                           rel="noopener noreferrer">
                             <i className="fa fa-linkedin" aria-hidden="true"/></a>
                     </div>
                 </div>
