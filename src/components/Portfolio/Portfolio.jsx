@@ -5,35 +5,51 @@ import Box from "./Box";
 const projects = [
     {
         title: "Phonebook",
-        img: 'assets/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg'
+        img: 'assets/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
         title: "Sorting Algorithms",
-        img: 'assets/paul-bergmeir-FzFH41IucIY-unsplash.jpg'
+        img: 'assets/paul-bergmeir-FzFH41IucIY-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
-        title: "Panownie z warsztatu",
-        img: 'assets/hosea-georgeson-iF2IHS0RVGM-unsplash.jpg'
+        title: "Panowie z warsztatu",
+        img: 'assets/hosea-georgeson-iF2IHS0RVGM-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
         title: "Loan Ratings App",
-        img: 'assets/steve-johnson-WVUrbhWtRNM-unsplash.jpg'
+        img: 'assets/steve-johnson-WVUrbhWtRNM-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
         title: "Prague with my eyes",
-        img: 'assets/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg'
+        img: 'assets/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
         title: "Book List",
-        img: 'assets/ed-robertson-FDzRG30DeVM-unsplash.jpg'
+        img: 'assets/ed-robertson-FDzRG30DeVM-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
         title: "Graphical Dashboard",
-        img: 'assets/campaign-creators-pypeCEaJeZY-unsplash.jpg'
+        img: 'assets/campaign-creators-pypeCEaJeZY-unsplash.jpg',
+        webpage: '',
+        repo: ''
     },
     {
-        title: "Ordering",
-        img: 'assets/jelleke-vanooteghem-MohB4LCIPyM-unsplash.jpg'
+        title: "Ordering App",
+        img: 'assets/jelleke-vanooteghem-MohB4LCIPyM-unsplash.jpg',
+        webpage: '',
+        repo: ''
     }
 ];
 

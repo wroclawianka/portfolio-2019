@@ -11,6 +11,12 @@ class Box extends Component {
             <div className="box project"
                  key={this.props.title}>
                 <div className="image" style={{backgroundImage: `url(${this.props.img})`}}>
+                    <div className="icons">
+                        <a className="icon" href={this.props.webpage} target="_blank">
+                            <i className="fa fa-laptop" aria-hidden="true"/></a>
+                        <a className="icon" href={this.props.repo} target="_blank">
+                            <i className="fa fa-github" aria-hidden="true"/></a>
+                    </div>
                     <div className="layer"/>
                 </div>
                 <div className="project-title">{this.props.title}</div>
