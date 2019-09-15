@@ -1,11 +1,9 @@
-.intro {
+#intro {
     display: grid;
-    min-height: calc(100vh - 100px);
     grid-template-areas: "page-title page-title" "content mainPicture";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px 1fr;
     padding: 10px;
-    font-family: 'Playfair Display', 'sans-serif';
 }
 
 .page-title {
@@ -39,7 +37,7 @@
 }
 
 @media only screen and (min-width: 500px) {
-    .intro {
+    #intro {
         padding: 30px;
     }
 
@@ -50,7 +48,7 @@
 }
 
 @media only screen and (min-width: 900px) {
-    .intro {
+    #intro {
         padding: 50px;
         grid-template-rows: initial;
         grid-template-areas: "page-title content mainPicture";

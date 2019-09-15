@@ -4,7 +4,7 @@ import "./Introduction.css";
 class Introduction extends Component {
     render() {
         return (
-            <div className="intro">
+            <div id="intro" className="block">
                 <div className="page-title">Dorota Zelga</div>
                 <div className="content">
                     <p>
