@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import MainPicture from "../../assets/main-picture.jpeg"
 import "./Introduction.css";
 
 class Introduction extends Component {
@@ -9,14 +8,9 @@ class Introduction extends Component {
                 <div className="page-title">Dorota Zelga</div>
                 <div className="content">
                     <p>
-                        Nulla facilisi. Aenean sapien nisi, sagittis nec lectus sed, finibus blandit massa. Mauris
-                        facilisis lacus velit. Nam suscipit, erat sit amet tempor vestibulum, est ante sagittis lectus,
-                        hendrerit tempor dolor odio eget sapien. Donec hendrerit velit at leo aliquam, non vehicula
-                        nulla
-                        maximus. Aliquam eu turpis sed enim pulvinar sagittis a ac leo. Praesent vitae suscipit eros.
-                        Sed
-                        sagittis, mi quis faucibus volutpat, sapien orci varius erat, et facilisis tellus sapien eu
-                        nunc.
+                        I am a Front-end developer working in IT since 2014. In mid-2017 I have started my journey with
+                        frontend world, working with Angular 2+, React, JavaScript, TypeScript, jQuery and more. I am
+                        also proficient with test automation with Selenium.
                     </p>
                 </div>
                 <div className="main-picture"/>
