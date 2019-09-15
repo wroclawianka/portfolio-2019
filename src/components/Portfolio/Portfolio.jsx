@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
 import './Portfolio.css';
+import Box from "./Box";
+
+const projects = [
+    {
+        title: "Phonebook",
+        img: 'assets/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg'
+    }
+];
 
 class Portfolio extends Component {
     render() {
@@ -9,14 +17,7 @@ class Portfolio extends Component {
                     <h1>Portfolio</h1>
                 </div>
                 <div className="content">
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
-                    <div className="project">1</div>
+                    {projects.map(project => <Box title={project.title} img={project.img}/>)}
                 </div>
             </div>
         )
