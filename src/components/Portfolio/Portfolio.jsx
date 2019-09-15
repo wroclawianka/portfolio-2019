@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Portfolio.css';
-import Box from "./Box";
+import Box from "./Box/Box";
 
 const projects = [
     {
