@@ -1,29 +1,33 @@
 .intro {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: auto 1fr 1fr;
     min-height: calc(100vh - 100px);
-    padding: 50px;
-    font-family: 'Open Sans', sans-serif;
+    grid-template-areas: "page-title page-title" "content mainPicture";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 10px;
+    font-family: 'Playfair Display', 'sans-serif';
 }
 
 .page-title {
-    writing-mode: vertical-lr;
-    text-orientation: upright;
     padding: 10px;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 200%;
+    font-size: 4vh;
+    grid-area: page-title;
 }
 
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: right;
+    grid-area: content;
 }
 
 .content p {
     background: #ffffff;
-    padding: 10px;
+    padding: 20px;
+    font-size: 16px;
+    font-size: 2.5vh;
 }
 
 .main-picture {
@@ -31,10 +35,33 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    grid-area: mainPicture;
 }
 
+@media only screen and (min-width: 500px) {
+    .intro {
+        padding: 30px;
+    }
+
+    .content p {
+        font-size: 16px;
+        font-size: 3.5vh;
+    }
+}
 
 @media only screen and (min-width: 900px) {
+    .intro {
+        padding: 50px;
+        grid-template-rows: initial;
+        grid-template-areas: "page-title content mainPicture";
+        grid-template-columns: auto 1fr 0.7fr;
+    }
+
+    .page-title {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        font-size: 5vh;
+    }
 
     .content {
         position: relative;
@@ -42,6 +69,9 @@
 
     .content p {
         transform: translate(7%, 0%);
+        font-size: 16px;
+        font-size: 3vh;
+        padding: 50px;
     }
 }
 
