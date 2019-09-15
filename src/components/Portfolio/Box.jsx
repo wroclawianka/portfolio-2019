@@ -8,8 +8,12 @@ class Box extends Component {
 
     render() {
         return (
-            <div className="box project" style={{backgroundImage: `url(${this.props.img})`}}
+            <div className="box project"
                  key={this.props.title}>
+                <div className="image" style={{backgroundImage: `url(${this.props.img})`}}>
+                    <div className="layer"/>
+                </div>
+                <div className="project-title">{this.props.title}</div>
             </div>
         )
     }
