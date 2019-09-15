@@ -19,10 +19,19 @@ a:hover {
 .container {
     height: 100vh;
     font-family: 'Playfair Display', 'sans-serif';
-
 }
 
 .block {
     min-height: calc(100vh - 100px);
     padding: 50px;
+}
+
+.block:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 95%; /* or 100px */
+    border-bottom: 1px solid whitesmoke;
 }
