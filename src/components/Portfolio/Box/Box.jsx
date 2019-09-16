@@ -9,10 +9,10 @@ class Box extends Component {
                  key={this.props.title}>
                 <div className="image" style={{backgroundImage: `url(${this.props.img})`}}>
                     <div className="icons">
-                        <a className="icon" href={this.props.webpage} target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-laptop" aria-hidden="true"/></a>
-                        <a className="icon" href={this.props.repo} target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-github" aria-hidden="true"/></a>
+                        {(this.props.webpage ? <a className="icon" href={this.props.webpage} target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-laptop" aria-hidden="true"/></a> : null)}
+                        {(this.props.repo ? <a className="icon" href={this.props.repo} target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-github" aria-hidden="true"/></a> : null)}
                     </div>
                     <div className="layer"/>
                 </div>
