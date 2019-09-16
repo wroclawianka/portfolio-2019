@@ -27,6 +27,11 @@ const projects = [
         repo: 'https://github.com/wroclawianka/loan-ratings-app'
     },
     {
+        title: "Portfolio II",
+        img: 'assets/john-baker-3To9V42K0Ag-unsplash.jpg',
+        repo: "https://github.com/wroclawianka/portfolio-react"
+    },
+    {
         title: "Prague with my eyes",
         img: 'assets/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg',
         webpage: 'https://praha-blog.netlify.com/',
@@ -48,7 +53,25 @@ const projects = [
         title: "Ordering App",
         img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
         repo: 'https://github.com/wroclawianka/ordering-assignment'
-    }
+    },
+    {
+        title: "Portfolio I",
+        img: 'assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
+        website: "https://wroclawianka.github.io/portfolio/",
+        repo: "https://github.com/wroclawianka/portfolio"
+    },
+    {
+        title: "Binary Calculator",
+        img: 'assets/iryna-tysiak-kRaH720CCRE-unsplash.jpg',
+        website: 'https://wroclawianka.github.io/binary-calculator/',
+        repo: 'https://github.com/wroclawianka/binary-calculator'
+    },
+    {
+        title: "Workshop Website",
+        img: 'assets/boostinjay-LvOGj1X2jHE-unsplash.jpg',
+        website: 'https://wroclawianka.github.io/car-service-webpage/',
+        repo: 'https://github.com/wroclawianka/car-service-webpage'
+    },
 ];
 
 class Portfolio extends Component {
