@@ -11,7 +11,7 @@ const projects = [
     },
     {
         title: "Sorting Algorithms",
-        img: 'assets/paul-bergmeir-FzFH41IucIY-unsplash.jpg',
+        img: 'assets/john-moeses-bauan-OGZtQF8iC0g-unsplash.jpg',
         webpage: '',
         repo: ''
     },
@@ -41,13 +41,13 @@ const projects = [
     },
     {
         title: "Graphical Dashboard",
-        img: 'assets/campaign-creators-pypeCEaJeZY-unsplash.jpg',
+        img: 'assets/carlos-muza-hpjSkU2UYSU-unsplash.jpg',
         webpage: '',
         repo: ''
     },
     {
         title: "Ordering App",
-        img: 'assets/jelleke-vanooteghem-MohB4LCIPyM-unsplash.jpg',
+        img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
         webpage: '',
         repo: ''
     }
