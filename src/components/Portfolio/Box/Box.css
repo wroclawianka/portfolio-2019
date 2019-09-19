@@ -1,6 +1,7 @@
 .project .image {
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 200px;
+    min-width: 200px;
+    height: 250px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
