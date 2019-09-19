@@ -8,7 +8,7 @@
 
 .page-title {
     padding: 10px;
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 4vh;
     grid-area: page-title;
     display: grid;
@@ -59,23 +59,20 @@
 
 @media only screen and (min-width: 900px) {
     #intro {
-        padding: 50px;
-        grid-template-rows: initial;
-        grid-template-areas: "page-title content mainPicture";
-        grid-template-columns: auto 1fr 0.7fr;
+        padding: 10px 50px 50px 50px;
     }
 
     .page-title {
-        writing-mode: vertical-lr;
-        text-orientation: upright;
-        font-size: 5vh;
-        display: grid;
-        grid-auto-flow: column;
-        grid-gap: 20px;
-        letter-spacing: -4px;
+        /* writing-mode: vertical-lr; */
+        /* text-orientation: upright; */
+        font-size: 4vh;
+        /* display: grid; */
+        /* grid-auto-flow: column; */
+        /* grid-gap: 20px; */
+        /* letter-spacing: -4px; */
     }
 
-    .page-title .links {
+    /* .page-title .links {
         font-size: 70%;
     }
 
@@ -85,7 +82,7 @@
 
     .page-title .links a {
         padding-top: 10px;
-    }
+    } */
 
     .content {
         position: relative;
