@@ -5,41 +5,41 @@ import Box from "./Box/Box";
 const projects = [
     {
         title: "Phonebook",
-        img: 'assets/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg',
+        img: 'assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg',
         repo: "https://github.com/wroclawianka/phonebook"
     },
     {
         title: "Sorting Algorithms",
-        img: 'assets/john-moeses-bauan-OGZtQF8iC0g-unsplash.jpg',
+        img: 'assets/ferdinand-stohr-rzA7ZuI8M5o-unsplash.jpg',
         webpage: 'https://sorting-algorithms-app.netlify.com/',
         repo: 'https://github.com/wroclawianka/sorting'
     },
     {
         title: "Panowie z warsztatu",
-        img: 'assets/hosea-georgeson-iF2IHS0RVGM-unsplash.jpg',
+        img: 'assets/thibaut-nagorny-ozTOWTr_i74-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/workshop-modern/',
         repo: 'https://github.com/wroclawianka/workshop-modern'
     },
     {
         title: "Loan Ratings App",
-        img: 'assets/steve-johnson-WVUrbhWtRNM-unsplash.jpg',
+        img: 'assets/sabine-peters-4IqiPGAuTVE-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/loan-ratings-app/',
         repo: 'https://github.com/wroclawianka/loan-ratings-app'
     },
     {
         title: "Portfolio II",
-        img: 'assets/john-baker-3To9V42K0Ag-unsplash.jpg',
+        img: 'assets/crew-4Hg8LH9Hoxc-unsplash.jpg',
         repo: "https://github.com/wroclawianka/portfolio-react"
     },
     {
         title: "Prague with my eyes",
-        img: 'assets/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg',
+        img: 'assets/wojtek-witkowski-1fpyA_z2woY-unsplash.jpg',
         webpage: 'https://praha-blog.netlify.com/',
         repo: 'https://github.com/wroclawianka/BlogApi/tree/master/Blog2.0/blog2.0'
     },
     {
         title: "Book List",
-        img: 'assets/ed-robertson-FDzRG30DeVM-unsplash.jpg',
+        img: 'assets/lou-levit-XiCZpdoX4lE-unsplash.jpg',
         webpage: 'https://book-list-dorota-zelga.netlify.com/',
         repo: 'https://github.com/wroclawianka/book-list-assignment'
     },
@@ -56,19 +56,19 @@ const projects = [
     },
     {
         title: "Portfolio I",
-        img: 'assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
+        img: 'assets/temple-cerulean-tP8ZwlCF8og-unsplash.jpg',
         website: "https://wroclawianka.github.io/portfolio/",
         repo: "https://github.com/wroclawianka/portfolio"
     },
     {
         title: "Binary Calculator",
-        img: 'assets/iryna-tysiak-kRaH720CCRE-unsplash.jpg',
+        img: 'assets/agence-producteurs-locaux-damien-kuhn-d-pPg9pnZRY-unsplash.jpg',
         website: 'https://wroclawianka.github.io/binary-calculator/',
         repo: 'https://github.com/wroclawianka/binary-calculator'
     },
     {
         title: "Workshop Website",
-        img: 'assets/boostinjay-LvOGj1X2jHE-unsplash.jpg',
+        img: 'assets/maksym-kaharlytskyi-ERt5AiGT7Xg-unsplash.jpg',
         website: 'https://wroclawianka.github.io/car-service-webpage/',
         repo: 'https://github.com/wroclawianka/car-service-webpage'
     },
