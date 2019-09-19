@@ -25,6 +25,7 @@
     margin: 0 50%;
     background-color: #ffffff;
     color: #767676;
+    cursor: pointer;
 }
 
 #portfolio .show-more-inside {

@@ -74,7 +74,55 @@ const projects = [
     },
 ];
 
+function getWindowWidth() {
+    return window.innerWidth;
+}
+
 class Portfolio extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            length: 0,
+            maxLength: projects.length
+        };
+    }
+
+    findLength = () => {
+        const width = getWindowWidth();
+        let length;
+        switch (true) {
+            case (width > 1200):
+                length = 8;
+                break;
+            case (width > 1000):
+                length = 6;
+                break;
+            case (width > 650):
+                length = 4;
+                break;
+            default:
+                length = 3
+        }
+        this.setState({
+            initLength: length,
+            length: length
+        });
+    };
+
+    componentDidMount() {
+        window.addEventListener("resize", this.findLength);
+    };
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.findLength);
+    }
+
+    clickMore = () => {
+        this.setState({
+            length: this.state.length + this.state.initLength
+        })
+    };
+
     render() {
         return (
             <div id="portfolio" className="block">
@@ -82,9 +130,16 @@ class Portfolio extends Component {
                     <h1>Portfolio</h1>
                 </div>
                 <div className="content">
-                    {projects.map(project => <Box title={project.title} img={project.img} webpage={project.webpage}
-                                                  repo={project.repo} key={project.title}/>)}
+                    {projects.slice(0, this.state.length).map(project => <Box title={project.title} img={project.img}
+                                                                              webpage={project.webpage}
+                                                                              repo={project.repo}
+                                                                              key={project.title}/>)}
                 </div>
+                {(this.state.maxLength > this.state.length) ? <div className="show-more">
+                    <div className="show-more-inside">
+                        <p className="show-more-content" onClick={this.clickMore}><a>More</a></p>
+                    </div>
+                </div> : null}
             </div>
         )
     }
