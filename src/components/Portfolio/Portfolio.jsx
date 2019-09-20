@@ -97,7 +97,7 @@ class Portfolio extends Component {
             case (width > 1000):
                 length = 6;
                 break;
-            case (width > 650):
+            case (width > 550):
                 length = 4;
                 break;
             default:
@@ -110,6 +110,7 @@ class Portfolio extends Component {
     };
 
     componentDidMount() {
+        this.findLength();
         window.addEventListener("resize", this.findLength);
     };
 
