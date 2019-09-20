@@ -20,12 +20,14 @@
 }
 
 #portfolio .show-more-content {
-    display: inline;
     padding: 0 20px;
-    margin: 0 50%;
     background-color: #ffffff;
     color: #767676;
     cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #portfolio .show-more-inside {
