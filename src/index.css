@@ -4,7 +4,7 @@
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Merriweather', serif;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: #339900;
+    color: rgb(66, 207, 190);
 }
 
 .container {
@@ -22,16 +22,7 @@ a:hover {
 }
 
 .block {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 50px);
     padding: 50px;
-}
-
-.block:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 1px;
-    width: 95%;
     border-bottom: 1px solid whitesmoke;
 }

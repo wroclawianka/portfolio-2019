@@ -6,7 +6,7 @@ class Introduction extends Component {
         return (
             <div id="intro" className="block">
                 <div className="page-title">
-                    <div className="title">Dorota Zelga</div>
+                    <div className="title">dorota.zelga</div>
                     <div className="links">
                         <a className="icon" href="https://github.com/wroclawianka/list-of-projects" target="_blank"
                            rel="noopener noreferrer">
