@@ -5,7 +5,7 @@ class Box extends Component {
 
     render() {
         return (
-            <div className="box project"
+            <div className="box project animated animatedFadeInUp fadeInUp"
                  key={this.props.title}>
                 <div className="image" style={{backgroundImage: `url(${this.props.img})`}}>
                     <div className="icons">
