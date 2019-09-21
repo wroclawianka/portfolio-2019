@@ -1,7 +1,7 @@
 # portfolio
    - :mega: personal portfolio
    - :wrench: React, JavaScript
-   - :date: July 2019
+   - :date: September 2019
    
    
 ## Getting started
