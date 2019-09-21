@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import "./Introduction.css";
+import Links from "../Links/Links";
 
 class Introduction extends Component {
     render() {
@@ -7,14 +8,7 @@ class Introduction extends Component {
             <div id="intro" className="block">
                 <div className="page-title">
                     <div className="title">dorota.zelga</div>
-                    <div className="links">
-                        <a className="icon" href="https://github.com/wroclawianka/list-of-projects" target="_blank"
-                           rel="noopener noreferrer">
-                            <i className="fa fa-github" aria-hidden="true"/></a>
-                        <a className="icon" href="https://www.linkedin.com/in/dorotazelga" target="_blank"
-                           rel="noopener noreferrer">
-                            <i className="fa fa-linkedin" aria-hidden="true"/></a>
-                    </div>
+                    <Links/>
                 </div >
                 <div className="introduction animated animatedFadeInUp fadeInUp">
                     <div className="content">
