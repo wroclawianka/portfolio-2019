@@ -2,11 +2,6 @@
     padding-bottom: 0;
 }
 
-#portfolio .title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
 #portfolio .content {
     display: grid;
     grid-auto-flow: row;
