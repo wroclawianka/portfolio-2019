@@ -2,11 +2,6 @@
     padding-bottom: 0;
 }
 
-#portfolio .title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
 #portfolio .content {
     display: grid;
     grid-auto-flow: row;
@@ -15,7 +10,7 @@
 }
 
 #portfolio .show-more {
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 40px 20px;
     position: relative;
 }
 
@@ -44,7 +39,7 @@
     top: 50%;
     left: 0;
     border-top: 1px solid #ffffff;
-    background: darkgrey;
+    background: #d7d7d7;
     width: 100%;
     transform: translateY(-50%);
 }

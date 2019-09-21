@@ -1,9 +1,15 @@
 #intro {
     display: grid;
-    grid-template-areas: "page-title page-title" "content mainPicture";
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "page-title" "introduction";
+    grid-template-columns: 1fr;
     grid-template-rows: 80px 1fr;
     padding: 10px;
+}
+
+.introduction {
+    display: grid;
+    grid-template-areas: "content mainPicture";
+    grid-template-columns: 1fr 1fr;
 }
 
 .page-title {
@@ -16,11 +22,15 @@
     grid-template-columns: 1fr auto;
 }
 
+.page-title .title {
+    text-align: left;
+}
+
 .page-title .links a {
     padding-left: 15px;
 }
 
-.content {
+#intro .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +38,7 @@
     grid-area: content;
 }
 
-.content p {
+#intro .content p {
     background: #ffffff;
     padding: 20px;
     font-size: 16px;
@@ -52,7 +62,7 @@
         background-image: url("../../assets/main-picture-horizontal.jpeg");
     }
 
-    .content p {
+    #intro .content p {
         font-size: 16px;
         font-size: 3.5vh;
     }
@@ -67,11 +77,11 @@
         font-size: 4vh;
     }
 
-    .content {
+    #intro .content {
         position: relative;
     }
 
-    .content p {
+    #intro .content p {
         transform: translate(7%, 0%);
         font-size: 16px;
         font-size: 3vh;

@@ -27,9 +27,10 @@ const projects = [
         repo: 'https://github.com/wroclawianka/loan-ratings-app'
     },
     {
-        title: "Portfolio II",
+        title: "Portfolio 2019",
         img: 'assets/crew-4Hg8LH9Hoxc-unsplash.jpg',
-        repo: "https://github.com/wroclawianka/portfolio-react"
+        webpage: "https://wroclawianka.github.io/portfolio",
+        repo: "https://github.com/wroclawianka/portfolio"
     },
     {
         title: "Prague with my eyes",
@@ -52,24 +53,25 @@ const projects = [
     {
         title: "Ordering App",
         img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
+        webpage: "https://wroclawianka.github.io/portfolio/",
         repo: 'https://github.com/wroclawianka/ordering-assignment'
     },
     {
-        title: "Portfolio I",
+        title: "Portfolio 2018",
         img: 'assets/temple-cerulean-tP8ZwlCF8og-unsplash.jpg',
-        website: "https://wroclawianka.github.io/portfolio/",
-        repo: "https://github.com/wroclawianka/portfolio"
+        webpage: "https://wroclawianka.github.io/portfolio-2018/",
+        repo: "https://github.com/wroclawianka/portfolio-2018"
     },
     {
         title: "Binary Calculator",
         img: 'assets/agence-producteurs-locaux-damien-kuhn-d-pPg9pnZRY-unsplash.jpg',
-        website: 'https://wroclawianka.github.io/binary-calculator/',
+        webpage: 'https://wroclawianka.github.io/binary-calculator/',
         repo: 'https://github.com/wroclawianka/binary-calculator'
     },
     {
         title: "Workshop Website",
         img: 'assets/maksym-kaharlytskyi-ERt5AiGT7Xg-unsplash.jpg',
-        website: 'https://wroclawianka.github.io/car-service-webpage/',
+        webpage: 'https://wroclawianka.github.io/car-service-webpage/',
         repo: 'https://github.com/wroclawianka/car-service-webpage'
     },
 ];

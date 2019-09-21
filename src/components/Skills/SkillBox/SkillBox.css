@@ -1,0 +1,33 @@
+#skills .content div {
+    background-color: #42cfbe;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    border-radius: 25px;
+}
+
+#skills .content .a {
+    grid-area: span 1 / span 1;
+}
+
+#skills .content .b {
+    grid-area: span 1 / span 2;
+}
+
+#skills .content .c {
+    grid-area: span 1 / span 3;
+}
+
+#skills .content .d {
+    grid-area: span 2 / span 2;
+}
+
+#skills .content .e {
+    grid-area: span 1 / span 4;
+}
+
+#skills .content .f {
+    grid-area: span 2 / span 1;
+}
