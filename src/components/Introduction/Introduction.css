@@ -1,9 +1,15 @@
 #intro {
     display: grid;
-    grid-template-areas: "page-title page-title" "content mainPicture";
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "page-title" "introduction";
+    grid-template-columns: 1fr;
     grid-template-rows: 80px 1fr;
     padding: 10px;
+}
+
+.introduction {
+    display: grid;
+    grid-template-areas: "content mainPicture";
+    grid-template-columns: 1fr 1fr;
 }
 
 .page-title {
