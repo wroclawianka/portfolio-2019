@@ -113,12 +113,12 @@ class Portfolio extends Component {
 
     componentDidMount() {
         this.findLength();
-        window.addEventListener("resize", this.findLength);
+        // window.addEventListener("resize", this.findLength);
     };
 
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.findLength);
-    }
+    // componentWillUnmount() {
+        // window.removeEventListener("resize", this.findLength);
+    // }
 
     clickMore = () => {
         this.setState({
