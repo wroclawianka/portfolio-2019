@@ -1,6 +1,7 @@
 #portfolio.block {
     padding-top: 0;
     padding-bottom: 0;
+    min-height: calc(100vh - 120px);
 }
 
 #portfolio .filter {
@@ -87,6 +88,7 @@
 
 @media only screen and (min-width: 1200px) {
     #portfolio .content {
+        margin-top: 25px;
         grid-template-columns: repeat(4, 1fr);
     }
 }
