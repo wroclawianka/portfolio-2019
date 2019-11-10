@@ -20,7 +20,8 @@ const projects = [
         title: "Phonebook",
         img: 'assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg',
         repo: "https://github.com/wroclawianka/phonebook",
-        stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'HTML/CSS']
+        stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'HTML/CSS'],
+        isFullStack: true
     },
     {
         title: "Sorting Algorithms",
@@ -198,6 +199,7 @@ class Portfolio extends Component {
                                                                                                  img={project.img}
                                                                                                  webpage={project.webpage}
                                                                                                  repo={project.repo}
+                                                                                                 isFullStack={project.isFullStack}
                                                                                                  key={project.title}/>)}
                 </div>
                 {(this.state.maxLength > this.state.length) ? <div className="show-more">
