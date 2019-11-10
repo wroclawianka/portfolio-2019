@@ -8,7 +8,7 @@
 }
 
 #portfolio .filter {
-    padding: 0 120px 25px 120px;
+    display: none;
 }
 
 #portfolio .basic-multi-select {
@@ -59,6 +59,11 @@
 }
 
 @media only screen and (min-width: 550px) {
+    #portfolio .filter {
+        padding: 0 120px 25px 120px;
+        display: initial;
+    }
+
     #portfolio .content {
         grid-template-columns: repeat(2, 1fr);
     }
