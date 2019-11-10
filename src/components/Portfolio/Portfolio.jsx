@@ -5,7 +5,7 @@ import Box from "./Box/Box";
 
 const technologies = [
     {value: 'REACT', label: 'React'},
-    {value: 'Angular', label: 'Angular 2+'},
+    {value: 'ANGULAR', label: 'Angular 2+'},
     {value: 'NODEJS', label: 'Node.js'},
     {value: 'MONGO', label: 'MongoDB'},
     {value: 'TS', label: 'TypeScript'},
