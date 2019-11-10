@@ -9,7 +9,7 @@
 .introduction {
     display: grid;
     grid-template-areas: "content mainPicture";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
 }
 
 .page-title {
@@ -70,7 +70,7 @@
 
 @media only screen and (min-width: 900px) {
     #intro {
-        padding: 10px 50px 50px 50px;
+        padding: 10px 100px 50px 100px;
     }
 
     .page-title {
