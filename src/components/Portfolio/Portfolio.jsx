@@ -178,7 +178,7 @@ class Portfolio extends Component {
                         isMulti
                         name="colors"
                         options={technologies}
-                        className="basic-multi-select"
+                        className="basic-multi-select animated animatedFadeInUp fadeInUp"
                         classNamePrefix="select"
                         placeholder="Select technologies..."
                         theme={theme => ({
@@ -202,7 +202,7 @@ class Portfolio extends Component {
                                                                                                  isFullStack={project.isFullStack}
                                                                                                  key={project.title}/>)}
                 </div>
-                {(this.state.maxLength > this.state.length) ? <div className="show-more">
+                {(this.state.maxLength > this.state.length) ? <div className="show-more animated animatedFadeInUp fadeInUp">
                     <div className="show-more-inside">
                         <p className="show-more-content" onClick={this.clickMore}><a>More</a></p>
                     </div>
