@@ -12,6 +12,9 @@
     margin: auto;
     z-index: 1000;
     font-size: 90%;
+}
+
+#portfolio .select__multi-value{
     font-weight: bolder;
 }
 
