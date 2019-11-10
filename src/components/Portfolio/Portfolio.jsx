@@ -169,9 +169,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div id="portfolio" className="block">
-                <div className="title">
-                    <h1>Portfolio</h1>
-                </div>
+                <div className="title">Portfolio</div>
                 <div className="filter">
                     <Select
                         value={this.state.selectedStack}
