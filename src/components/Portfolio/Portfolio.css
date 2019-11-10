@@ -10,6 +10,7 @@
 #portfolio .basic-multi-select {
     max-width: 821px;
     margin: auto;
+    z-index: 1000;
 }
 
 #portfolio .content {
