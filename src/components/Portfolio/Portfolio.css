@@ -1,5 +1,19 @@
 #portfolio.block {
+    padding-top: 0;
     padding-bottom: 0;
+}
+
+#portfolio .title {
+    padding-bottom: 10px;
+}
+
+#portfolio .filter {
+    padding: 0 120px 25px 120px;
+}
+
+#portfolio .basic-multi-select {
+    max-width: 821px;
+    margin: auto;
 }
 
 #portfolio .content {
