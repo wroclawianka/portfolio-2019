@@ -181,6 +181,18 @@ class Portfolio extends Component {
                         options={technologies}
                         className="basic-multi-select"
                         classNamePrefix="select"
+                        placeholder="Select technologies..."
+                        theme={theme => ({
+                            ...theme,
+                            borderRadius: 0,
+                            colors: {
+                                ...theme.colors,
+                                primary25: 'rgba(68,220,200,0.28)',
+                                dangerLight: 'rgba(68,220,200,0.28)',
+                                danger: 'rgb(43,146,122)',
+                                primary: '#d7d7d7',
+                            },
+                        })}
                     />
                 </div>
                 <div className="content">
