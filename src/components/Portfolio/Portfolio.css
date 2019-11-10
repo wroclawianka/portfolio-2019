@@ -8,9 +8,15 @@
 }
 
 #portfolio .basic-multi-select {
-    max-width: 821px;
+    max-width: 682px;
     margin: auto;
     z-index: 1000;
+    font-size: 90%;
+    font-weight: bolder;
+}
+
+#portfolio .select__clear-indicator {
+    display: none;
 }
 
 #portfolio .content {
