@@ -8,6 +8,7 @@ class Box extends Component {
             <div className="box project animated animatedFadeInUp fadeInUp"
                  key={this.props.title}>
                 <div className="image" style={{backgroundImage: `url(${this.props.img})`}}>
+                    {(this.props.isFullStack ? <div className="ribbon ribbon-top-right"><span>Full-stack</span></div> : null)}
                     <div className="icons">
                         {(this.props.webpage ? <a className="icon" href={this.props.webpage} target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-laptop" aria-hidden="true"/></a> : null)}

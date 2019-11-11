@@ -1,5 +1,26 @@
 #portfolio.block {
+    padding-top: 0;
     padding-bottom: 0;
+    min-height: calc(100vh - 120px);
+}
+
+#portfolio .filter {
+    display: none;
+}
+
+#portfolio .basic-multi-select {
+    max-width: 682px;
+    margin: auto;
+    z-index: 1000;
+    font-size: 90%;
+}
+
+#portfolio .select__multi-value{
+    font-weight: bolder;
+}
+
+#portfolio .select__clear-indicator {
+    display: none;
 }
 
 #portfolio .content {
@@ -45,6 +66,15 @@
 }
 
 @media only screen and (min-width: 550px) {
+    #portfolio .title {
+        padding-bottom: 0;
+    }
+
+    #portfolio .filter {
+        padding: 0 120px 25px 120px;
+        display: initial;
+    }
+
     #portfolio .content {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -58,6 +88,7 @@
 
 @media only screen and (min-width: 1200px) {
     #portfolio .content {
+        margin-top: 25px;
         grid-template-columns: repeat(4, 1fr);
     }
 }
