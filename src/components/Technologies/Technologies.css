@@ -16,6 +16,7 @@
 
 .stack-label {
     visibility: hidden;
+    transition: 0.5s;
 }
 
 .stack:hover .stack-label{
@@ -24,6 +25,11 @@
 
 .opacity {
     filter: opacity(45%);
+    transition: 0.5s;
+}
+
+.opacity:hover {
+    filter: opacity(60%);
 }
 
 @media only screen and (min-width: 550px) {
