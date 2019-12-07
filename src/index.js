@@ -4,14 +4,14 @@ import './index.css';
 import Introduction from "./components/Introduction/Introduction";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
-import Links from "./components/Links/Links";
+import Technologies from "./components/Technologies/Technologies";
 
 const App = () => {
     return (
        <div className="container">
            <Introduction/>
            <Portfolio/>
-           <Links/>
+           <Technologies/>
            <Footer/>
        </div>
     )
