@@ -26,12 +26,20 @@
     text-align: left;
 }
 
-.page-title .terminal {
+.page-title .console {
     display: none
 }
 
-.page-title:hover .terminal {
+.page-title:hover .console {
     display: initial;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.console-underscore {
+    top: -0.14em;
 }
 
 .page-title .links a {
