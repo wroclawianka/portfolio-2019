@@ -7,7 +7,12 @@ class Introduction extends Component {
         return (
             <div id="intro" className="block">
                 <div className="page-title">
-                    <div className="title">dorota.zelga</div>
+                    <div className="title">
+                    dorota.zelga
+                    <span className="terminal">
+                            >_
+                        </span>
+                </div>
                     <Links/>
                 </div >
                 <div className="introduction animated animatedFadeInUp fadeInUp">

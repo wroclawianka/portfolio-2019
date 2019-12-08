@@ -26,6 +26,14 @@
     text-align: left;
 }
 
+.page-title .terminal {
+    display: none
+}
+
+.page-title:hover .terminal {
+    display: initial;
+}
+
 .page-title .links a {
     padding-left: 15px;
 }
