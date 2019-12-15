@@ -58,9 +58,17 @@ class IntroContent extends Component {
         });
     };
 
-    renderSlide = (className, renderContent) => {
+    nextSlide = (prevId) => {
+        let prevIndex = options.findIndex(option => prevId === option.id);
+        let index = (prevIndex < (options.length - 1)) ? ++prevIndex : 0;
+        this.setState({
+            selectedOption: options[index].id
+        });
+    };
+
+    renderSlide = (id, className, renderContent) => {
         return (
-            <div className="slide" key={"slide-" + className}>
+            <div className="slide" key={"slide-" + className} value={id} onClick={() => this.nextSlide(id)}>
                 <div className={"content-inner " + className}>
                     {renderContent()}
                 </div>
@@ -81,8 +89,8 @@ class IntroContent extends Component {
                         )
                     })}
                     <div className="wrapper">
-                        {options.map(({className, renderContent}) => {
-                            return this.renderSlide(className, renderContent)
+                        {options.map(({id, className, renderContent}) => {
+                            return this.renderSlide(id, className, renderContent)
                         })}
                     </div>
                     <div className="controls">
