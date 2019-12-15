@@ -8,7 +8,7 @@
 
 #intro-content .slider {
     font-size: 16px;
-    font-size: 2.5vh;
+    font-size: 2.9vh;
 }
 
 .slider * {
@@ -37,7 +37,7 @@ input {
 .content-inner {
     width: 55vw;
     height: 100%;
-    padding: 31px;
+    padding: 31px 31px 31px 10px;
     opacity: 0;
     pointer-events: none;
     transition: opacity .6s;
@@ -75,7 +75,7 @@ label {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1403px) {
     #intro-content {
         position: relative;
     }
@@ -87,7 +87,7 @@ label {
     }
 
     .content-inner {
-        max-height: 30vh;
+        max-height: 32vh;
         padding: 52px;
     }
 

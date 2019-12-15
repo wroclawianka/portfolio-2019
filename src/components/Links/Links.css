@@ -1,9 +1,14 @@
 .links {
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 3.5vh;
 }
 
  .links a:first-of-type {
     padding-right: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .links {
+        font-size: 3.5vh;
+    }
 }

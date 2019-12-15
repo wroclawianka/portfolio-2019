@@ -2,14 +2,16 @@
     display: grid;
     grid-template-areas: "page-title" "introduction";
     grid-template-columns: 1fr;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 63px 1fr;
     padding: 10px;
+    min-height: calc(100vh - 150px);
 }
 
 .introduction {
     display: grid;
     grid-template-areas: "content mainPicture";
     grid-template-columns: 1fr 1fr;
+    padding-right: 8px;
 }
 
 .main-picture {
@@ -22,11 +24,14 @@
 
 @media only screen and (min-width: 500px) {
     #intro {
+        min-height: calc(100vh - 50px);
         padding: 20px;
+        grid-template-rows: 80px 1fr;
     }
 
     .introduction {
-        grid-template-columns: 1fr 0.5fr;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 0;
     }
 
     .main-picture {
@@ -34,9 +39,17 @@
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1140px) {
+    .introduction {
+        grid-template-columns: 1fr 0.5fr;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
     #intro {
+        min-height: calc(100vh - 50px);
         padding: 10px 100px 50px 100px;
+        grid-template-rows: 80px 1fr;
     }
 }
 
