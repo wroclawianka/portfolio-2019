@@ -5,3 +5,8 @@
     color: darkgrey;
     border-top: 1px solid whitesmoke;
 }
+
+.footer-links * {
+    padding: 5px 5px 10px 5px;
+    font-size: 120%;
+}
