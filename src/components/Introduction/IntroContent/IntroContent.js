@@ -6,12 +6,10 @@ const options = [
         id: 'i_1', className: 'content1', renderContent: () => {
             return (
                 <p>
-                    I am a <strong>Front-end developer</strong> working in IT
-                    since <strong>2014</strong>. In
-                    mid-2017 I have started my journey with
-                    front-end, working with <strong>Angular
+                    I am a <strong>Front-end developer</strong> with such skills as <strong>Angular
                 </strong>, <strong>React</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong> and
-                    more.
+                    more. I am a huge <strong>agile enthusiast</strong> and I believe in the
+                    <strong> power of teamwork</strong>!
                 </p>
             )
         }
@@ -20,11 +18,9 @@ const options = [
         id: 'i_2', className: 'content2', renderContent: () => {
             return (
                 <p>
-                    In mattis lacus et <strong>nunc tempor</strong> condimentum. Aliquam ac turpis vel quam
-                    placerat
-                    fringilla vitae eu ante. <strong>Class aptent</strong> taciti sociosqu ad litora
-                    torquent per conubia
-                    nostra, per inceptos himenaeos
+                    I am working in IT since <strong>2014</strong>, being part of <strong>international
+                    teams</strong> from various countries. In <strong>mid-2017</strong> I started my journey with
+                    front-end development.
                 </p>
             )
         }
@@ -33,11 +29,9 @@ const options = [
         id: 'i_3', className: 'content3', renderContent: () => {
             return (
                 <p>
-                    Duis vehicula, <strong>justo non</strong> bibendum ultrices, lacus tortor efficitur
-                    lacus, in aliquam
-                    odio lacus nec nibh. Nulla facilisis <strong>efficitur interdum</strong>. Fusce vel mi
-                    et augue mattis
-                    consectetur
+                    I am a well-organized person with <strong>plenty of motivation </strong>and I consider myself a
+                    <strong> good self-learner</strong>. I do not afraid of relocation and challenges at work.
+                    <strong> Scroll down</strong> to find a couple of my <strong>personal projects</strong>!
                 </p>
             )
         }
