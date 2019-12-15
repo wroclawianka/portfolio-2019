@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './IntroContent.css'
 
-let options = [
+const options = [
     {
         id: 'i_1', className: 'content1', renderContent: () => {
             return (
@@ -70,8 +70,8 @@ class IntroContent extends Component {
 
     render() {
         return (
-            <div className="content">
-                <div id="intro-slider">
+            <div id="intro-content" className="content">
+                <div className="slider">
                     {options.map(({id}) => {
                         return (
                             <input type="radio" name="switch" value={id} id={id} key={id}
@@ -81,7 +81,9 @@ class IntroContent extends Component {
                         )
                     })}
                     <div className="wrapper">
-                        {options.map(({className, renderContent}) => this.renderSlide(className, renderContent))}
+                        {options.map(({className, renderContent}) => {
+                            return this.renderSlide(className, renderContent)
+                        })}
                     </div>
                     <div className="controls">
                         {options.map(({id}) => {

@@ -1,4 +1,4 @@
-.introduction .content {
+#intro-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,15 +6,12 @@
     grid-area: content;
 }
 
-.introduction .content #main {
-    /*background: #ffffff;*/
-    /*padding: 20px;*/
-    /*padding-left: 0px;*/
+#intro-content .slider {
     font-size: 16px;
     font-size: 2.5vh;
 }
 
-#main * {
+.slider * {
     box-sizing: border-box;
 }
 
@@ -25,12 +22,11 @@ input {
     position: absolute;
 }
 
-/* Base styles for this example */
-
 .wrapper {
     background: #ffffff;
-    width: 55vw; /* unfortunately width has to be set to some hard value */
+    width: 55vw;
     display: flex;
+    margin: 0 auto;
 }
 
 .slide {
@@ -39,36 +35,14 @@ input {
 
 .content-inner {
     width: 55vw;
-    height: 100%; /* this is optional if you want every slide to have same height as the highest one */
-}
-
-
-/* Additional styling */
-
-#main {
-    /*   background-color: #BDBDBD; */
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*font-family: Lato;*/
-}
-
-.wrapper {
-    margin: 0 auto;
-    background-color: white;
-    /*box-shadow: 1px 1px 20px #9E9E9E;*/
-}
-
-.content-inner {
-    padding: 30px;
+    height: 100%;
+    padding: 52px;
     opacity: 0;
     pointer-events: none;
     transition: opacity .6s;
     max-height: 30vh;
     overflow-y: auto;
 }
-
 
 #i_1:checked ~ .wrapper .content1,
 #i_2:checked ~ .wrapper .content2,
@@ -93,24 +67,21 @@ label {
     color: #424242;
 }
 
-
 @media only screen and (min-width: 500px) {
-    .introduction .content #main {
-        /*padding: 20px;*/
+    #intro-content .slider {
         font-size: 16px;
         font-size: 3.5vh;
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .introduction .content {
+    #intro-content {
         position: relative;
     }
 
-    .introduction .content #main {
-        transform: translate(11%, 0%);
+    #intro-content .slider {
+        transform: translate(7%, 0%);
         font-size: 16px;
         font-size: 3.1vh;
-        /*padding: 50px;*/
     }
 }
