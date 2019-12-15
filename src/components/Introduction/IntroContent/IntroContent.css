@@ -36,11 +36,10 @@ input {
 .content-inner {
     width: 55vw;
     height: 100%;
-    padding: 52px;
+    padding: 31px;
     opacity: 0;
     pointer-events: none;
     transition: opacity .6s;
-    max-height: 30vh;
     overflow-y: auto;
 }
 
@@ -52,7 +51,8 @@ input {
 }
 
 .controls {
-    text-align: center;
+    padding: 0 31px;
+    text-align: right;
 }
 
 label {
@@ -83,5 +83,15 @@ label {
         transform: translate(7%, 0%);
         font-size: 16px;
         font-size: 3.1vh;
+    }
+
+    .content-inner {
+        max-height: 30vh;
+        padding: 52px;
+    }
+
+    .controls {
+        padding: 0 52px;
+        text-align: center;
     }
 }
