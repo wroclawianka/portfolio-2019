@@ -18,7 +18,7 @@ const Technologies = () => {
             <div className="content">
                 {stackList.map(stack => {
                     return <div className='stack opacity animated animatedFadeInUp fadeInUp'>
-                        <img className='' id={stack.label.toLowerCase()} src={stack.img} alt={stack.label} height="50"/>
+                        <img className='' id={stack.label.toLowerCase()} src={stack.img} alt={stack.label}/>
                         <p className='stack-label'>{stack.label}</p>
                     </div>
                 })}

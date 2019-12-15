@@ -4,10 +4,11 @@
 
 #technologies .content {
     display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
     justify-content: space-around;
+    padding: 0 50px;
 }
 
 .stack{
@@ -32,6 +33,10 @@
     filter: opacity(60%);
 }
 
+img {
+    height: 40px;
+}
+
 @media only screen and (min-width: 550px) {
     #technologies {
         padding-left: 20px;
@@ -40,6 +45,19 @@
 
     #technologies .content {
         grid-gap: 0;
+    }
+
+    img {
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    #technologies .content {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-rows: repeat(1, 1fr);
+        padding: initial;
     }
 }
 
@@ -51,6 +69,7 @@
 
     #technologies .content {
         grid-gap: 5px;
+        grid-auto-flow: row;
     }
 }
 
@@ -65,13 +84,14 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     #technologies {
         padding-left: 250px;
         padding-right: 250px;
     }
 
     #technologies .content {
+        grid-auto-flow: row;
         grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
     }
 }
