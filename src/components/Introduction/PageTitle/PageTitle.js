@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Links from "../../Links/Links";
+import './PageTitle.css';
 
 class PageTitle extends Component {
     componentDidMount() {

@@ -1,0 +1,41 @@
+.page-title {
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 4vh;
+    grid-area: page-title;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr auto;
+}
+
+.page-title .title {
+    text-align: left;
+}
+
+.page-title .console {
+    display: none
+}
+
+.page-title:hover .console {
+    display: initial;
+}
+
+.page-title .links a {
+    padding-left: 15px;
+}
+
+.console-underscore {
+    top: -0.14em;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .page-title {
+        font-size: 4vh;
+        padding-top: 20px;
+    }
+}
