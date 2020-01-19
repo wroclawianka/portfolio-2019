@@ -20,7 +20,7 @@ const technologies = [
 const projects = [
     {
         title: "Crypto Tracker",
-        img: 'assets/andre-francois-mckenzie-vh7U_Z75L3U-unsplash-AAA.jpg',
+        img: 'assets/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/crypto-tracker',
         repo: "https://github.com/wroclawianka/crypto-tracker",
         stack: ['ANGULAR', 'NGRX', 'MATERIAL UI', 'HTML/CSS'],
