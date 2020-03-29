@@ -1,4 +1,4 @@
-# Portfolio 2019
+# Portfolio 2019 - 2020
    - :mega: personal portfolio
    - :wrench: React, JavaScript
    - :date: September 2019
