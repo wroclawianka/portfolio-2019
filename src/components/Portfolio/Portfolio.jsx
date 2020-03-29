@@ -10,18 +10,28 @@ const technologies = [
     {value: 'MONGO', label: 'MongoDB'},
     {value: 'TS', label: 'TypeScript'},
     {value: 'JS', label: 'JavaScript'},
+    {value: 'NGRX', label: 'ngrx'},
     {value: 'JQUERY', label: 'jQuery'},
     {value: 'HTML/CSS', label: 'HTML/CSS'},
     {value: 'BOOTSTRAP', label: 'Bootstrap'},
+    {value: 'MATERIAL UI', label: 'Material UI'},
 ];
 
 const projects = [
     {
+        title: "Crypto Tracker",
+        img: 'assets/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg',
+        webpage: 'https://wroclawianka.github.io/crypto-tracker',
+        repo: "https://github.com/wroclawianka/crypto-tracker",
+        stack: ['ANGULAR', 'NGRX', 'MATERIAL UI', 'HTML/CSS'],
+        label: 'Angular + ngrx'
+    },
+    {
         title: "Phonebook",
         img: 'assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg',
         repo: "https://github.com/wroclawianka/phonebook",
-        stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'HTML/CSS'],
-        isFullStack: true
+        stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'MATERIAL UI', 'HTML/CSS'],
+        label: 'Full-stack'
     },
     {
         title: "Sorting Algorithms",
@@ -199,7 +209,7 @@ class Portfolio extends Component {
                                                                                                  img={project.img}
                                                                                                  webpage={project.webpage}
                                                                                                  repo={project.repo}
-                                                                                                 isFullStack={project.isFullStack}
+                                                                                                 label={project.label}
                                                                                                  key={project.title}/>)}
                 </div>
                 {(this.state.maxLength > this.state.length) ? <div className="show-more animated animatedFadeInUp fadeInUp">
