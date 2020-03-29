@@ -5,6 +5,7 @@ import Box from "./Box/Box";
 
 const technologies = [
     {value: 'REACT', label: 'React'},
+    {value: 'REDUX', label: 'Redux'},
     {value: 'ANGULAR', label: 'Angular 2+'},
     {value: 'NODEJS', label: 'Node.js'},
     {value: 'MONGO', label: 'MongoDB'},
@@ -19,19 +20,26 @@ const technologies = [
 
 const projects = [
     {
+        title: "Groceries List",
+        img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
+        repo: "https://github.com/wroclawianka/groceries-app",
+        stack: ['REACT', 'REDUX', 'NODEJS', 'MONGO', 'MATERIAL UI', 'HTML/CSS'],
+        label: 'React & Redux'
+    },
+    {
         title: "Crypto Tracker",
         img: 'assets/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/crypto-tracker',
         repo: "https://github.com/wroclawianka/crypto-tracker",
         stack: ['ANGULAR', 'NGRX', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'Angular + ngrx'
+        label: 'Angular & ngrx'
     },
     {
         title: "Phonebook",
         img: 'assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg',
         repo: "https://github.com/wroclawianka/phonebook",
         stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'Full-stack'
+        label: 'React & NodeJS'
     },
     {
         title: "Sorting Algorithms",
