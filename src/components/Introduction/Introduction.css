@@ -5,6 +5,8 @@
     grid-template-rows: 63px 1fr;
     padding: 10px;
     min-height: calc(100vh - 150px);
+    max-width: 1900px;
+    margin: auto;
 }
 
 .introduction {
@@ -40,9 +42,6 @@
 }
 
 @media only screen and (min-width: 1140px) {
-    .introduction {
-        grid-template-columns: 1fr 0.5fr;
-    }
 }
 
 @media only screen and (min-width: 1000px) {
