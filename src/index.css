@@ -19,6 +19,7 @@ a:hover {
 .container {
     height: 100vh;
     font-family: 'Playfair Display', 'sans-serif';
+    margin: auto;
 }
 
 .block {

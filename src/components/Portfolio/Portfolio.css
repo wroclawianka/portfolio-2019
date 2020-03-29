@@ -2,6 +2,8 @@
     padding-top: 25px;
     padding-bottom: 0;
     min-height: calc(100vh - 120px);
+    max-width: 1900px;
+    margin: auto;
 }
 
 #portfolio .title {
