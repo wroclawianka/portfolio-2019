@@ -12,6 +12,8 @@ class Box extends Component {
                     <div className="icons">
                         {(this.props.webpage ? <a className="icon" href={this.props.webpage} target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-laptop" aria-hidden="true"/></a> : null)}
+                            {(this.props.yt ? <a className="icon" href={this.props.yt} target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-youtube-play" aria-hidden="true"/></a> : null)}
                         {(this.props.repo ? <a className="icon" href={this.props.repo} target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github" aria-hidden="true"/></a> : null)}
                     </div>
