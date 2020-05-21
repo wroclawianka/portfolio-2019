@@ -19,7 +19,7 @@ const options = [
             return (
                 <p>
                     I am working in IT since <strong>2014</strong>, being part of <strong>international
-                    teams</strong> from various countries. In <strong>mid-2017</strong> I started my journey with
+                    teams</strong> from various countries. In <strong>mid-2018</strong> I started my journey with
                     front-end development.
                 </p>
             )
