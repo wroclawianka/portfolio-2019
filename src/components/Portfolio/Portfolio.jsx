@@ -1,21 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Select from 'react-select'
 import './Portfolio.css';
 import Box from "./Box/Box";
 
 const technologies = [
-    {value: 'REACT', label: 'React'},
-    {value: 'ANGULAR', label: 'Angular 2+'},
-    {value: 'NODEJS', label: 'Node.js'},
-    {value: 'MONGO', label: 'MongoDB'},
-    {value: 'TS', label: 'TypeScript'},
-    {value: 'JS', label: 'JavaScript'},
-    {value: 'REDUX', label: 'Redux'},
-    {value: 'NGRX', label: 'ngrx'},
-    {value: 'JQUERY', label: 'jQuery'},
-    {value: 'HTML/CSS', label: 'HTML/CSS'},
-    {value: 'BOOTSTRAP', label: 'Bootstrap'},
-    {value: 'MATERIAL UI', label: 'Material UI'},
+    { value: 'REACT', label: 'React' },
+    { value: 'ANGULAR', label: 'Angular 2+' },
+    { value: 'NODEJS', label: 'Node.js' },
+    { value: 'MONGO', label: 'MongoDB' },
+    { value: 'TS', label: 'TypeScript' },
+    { value: 'JS', label: 'JavaScript' },
+    { value: 'REDUX', label: 'Redux' },
+    { value: 'NGRX', label: 'ngrx' },
+    { value: 'JQUERY', label: 'jQuery' },
+    { value: 'HTML/CSS', label: 'HTML/CSS' },
+    { value: 'BOOTSTRAP', label: 'Bootstrap' },
+    { value: 'MATERIAL UI', label: 'Material UI' },
 ];
 
 const projects = [
@@ -23,6 +23,7 @@ const projects = [
         title: "Groceries List",
         img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
         repo: "https://github.com/wroclawianka/groceries-app",
+        yt: 'https://youtu.be/r-y8D6FmHk0',
         stack: ['REACT', 'REDUX', 'NODEJS', 'MONGO', 'MATERIAL UI', 'HTML/CSS'],
         label: 'React & Redux'
     },
@@ -38,6 +39,7 @@ const projects = [
         title: "Phonebook",
         img: 'assets/rahul-chakraborty-xsGxhtAsfSA-unsplash.jpg',
         repo: "https://github.com/wroclawianka/phonebook",
+        yt: 'https://youtu.be/UWDnyAftJW4',
         stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'MATERIAL UI', 'HTML/CSS'],
         label: 'React & NodeJS'
     },
@@ -94,6 +96,7 @@ const projects = [
         title: "Ordering App",
         img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
         repo: 'https://github.com/wroclawianka/ordering-assignment',
+        yt: 'https://youtu.be/-aCDjMuvmGE',
         stack: ['REACT', 'JS', 'HTML/CSS']
     },
     {
@@ -160,7 +163,7 @@ class Portfolio extends Component {
         let filteredProjects = (selectedStack)
             ? this.filterProjectsByStack(selectedStack)
             : projects; //show all technologies if nothing selected
-        this.setState({filteredProjects, selectedStack})
+        this.setState({ filteredProjects, selectedStack })
     };
 
     filterProjectsByStack = (selectedStack) => {
@@ -176,7 +179,7 @@ class Portfolio extends Component {
     };
 
     // componentWillUnmount() {
-        // window.removeEventListener("resize", this.findLength);
+    // window.removeEventListener("resize", this.findLength);
     // }
 
     clickMore = () => {
@@ -213,12 +216,17 @@ class Portfolio extends Component {
                     />
                 </div>
                 <div className="content">
-                    {this.state.filteredProjects.slice(0, this.state.length).map(project => <Box title={project.title}
-                                                                                                 img={project.img}
-                                                                                                 webpage={project.webpage}
-                                                                                                 repo={project.repo}
-                                                                                                 label={project.label}
-                                                                                                 key={project.title}/>)}
+                    {this.state.filteredProjects
+                        .slice(0, this.state.length)
+                        .map(project =>
+                            <Box title={project.title}
+                                img={project.img}
+                                webpage={project.webpage}
+                                repo={project.repo}
+                                yt={project.yt}
+                                label={project.label}
+                                key={project.title} />
+                        )}
                 </div>
                 {(this.state.maxLength > this.state.length) ? <div className="show-more animated animatedFadeInUp fadeInUp">
                     <div className="show-more-inside">
