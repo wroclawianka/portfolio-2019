@@ -96,6 +96,7 @@ const projects = [
         title: "Ordering App",
         img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
         repo: 'https://github.com/wroclawianka/ordering-assignment',
+        yt: 'https://youtu.be/-aCDjMuvmGE',
         stack: ['REACT', 'JS', 'HTML/CSS']
     },
     {
