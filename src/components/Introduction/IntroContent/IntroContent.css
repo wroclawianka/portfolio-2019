@@ -27,6 +27,7 @@ input {
     width: 55vw;
     display: flex;
     margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 65%);
 }
 
 .slide {
@@ -44,9 +45,9 @@ input {
     overflow-y: auto;
 }
 
-#i_1:checked ~ .wrapper .content1,
-#i_2:checked ~ .wrapper .content2,
-#i_3:checked ~ .wrapper .content3 {
+#i_1:checked~.wrapper .content1,
+#i_2:checked~.wrapper .content2,
+#i_3:checked~.wrapper .content3 {
     opacity: 1;
     pointer-events: auto;
 }
@@ -62,9 +63,9 @@ label {
     cursor: pointer;
 }
 
-#i_1:checked ~ .controls label[for="i_1"],
-#i_2:checked ~ .controls label[for="i_2"],
-#i_3:checked ~ .controls label[for="i_3"] {
+#i_1:checked~.controls label[for="i_1"],
+#i_2:checked~.controls label[for="i_2"],
+#i_3:checked~.controls label[for="i_3"] {
     color: #424242;
 }
 
@@ -79,18 +80,15 @@ label {
     #intro-content {
         position: relative;
     }
-
     #intro-content .slider {
         transform: translate(7%, 0%);
         font-size: 16px;
         font-size: 3.1vh;
     }
-
     .content-inner {
         max-height: 32vh;
         padding: 52px;
     }
-
     .controls {
         padding: 0 52px;
         text-align: center;

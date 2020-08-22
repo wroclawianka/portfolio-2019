@@ -19,6 +19,12 @@ const technologies = [
 ];
 
 const projects = [
+    // {
+    //     title: "Personal dashboard",
+    //     img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
+    //     repo: "",
+    //     stack: ['REACT', 'REDUZ', 'JS']
+    // },
     {
         title: "Groceries List",
         img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
