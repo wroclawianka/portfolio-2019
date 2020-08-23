@@ -31,7 +31,8 @@ const projects = [
         repo: "https://github.com/wroclawianka/groceries-app",
         yt: 'https://youtu.be/r-y8D6FmHk0',
         stack: ['REACT', 'REDUX', 'NODEJS', 'MONGO', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'React & Redux'
+        label: 'React & Redux',
+        year: '2020',
     },
     {
         title: "Crypto Tracker",
@@ -39,7 +40,8 @@ const projects = [
         webpage: 'https://wroclawianka.github.io/crypto-tracker',
         repo: "https://github.com/wroclawianka/crypto-tracker",
         stack: ['ANGULAR', 'NGRX', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'Angular & ngrx'
+        label: 'Angular & ngrx',
+        year: '2020',
     },
     {
         title: "Phonebook",
@@ -47,84 +49,96 @@ const projects = [
         repo: "https://github.com/wroclawianka/phonebook",
         yt: 'https://youtu.be/UWDnyAftJW4',
         stack: ['REACT', 'JS', 'MONGO', 'NODEJS', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'React & NodeJS'
+        label: 'React & NodeJS',
+        year: '2019',
     },
     {
         title: "Sorting Algorithms",
         img: 'assets/ferdinand-stohr-rzA7ZuI8M5o-unsplash.jpg',
         webpage: 'https://sorting-algorithms-app.netlify.com/',
         repo: 'https://github.com/wroclawianka/sorting',
-        stack: ['REACT', 'TS', 'HTML/CSS', 'BOOTSTRAP']
+        stack: ['REACT', 'TS', 'HTML/CSS', 'BOOTSTRAP'],
+        year: '2019',
+    },
+    {
+        title: "Portfolio #2",
+        img: 'assets/crew-4Hg8LH9Hoxc-unsplash.jpg',
+        webpage: "https://wroclawianka.github.io/portfolio",
+        repo: "https://github.com/wroclawianka/portfolio",
+        stack: ['REACT', 'JS', 'HTML/CSS'],
+        year: '2019',
     },
     {
         title: "Panowie z warsztatu",
         img: 'assets/thibaut-nagorny-ozTOWTr_i74-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/workshop-modern/',
         repo: 'https://github.com/wroclawianka/workshop-modern',
-        stack: ['JQUERY', 'JS', 'HTML/CSS']
+        stack: ['JQUERY', 'JS', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Loan Ratings App",
         img: 'assets/sabine-peters-4IqiPGAuTVE-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/loan-ratings-app/',
         repo: 'https://github.com/wroclawianka/loan-ratings-app',
-        stack: ['ANGULAR', 'TS', 'HTML/CSS']
-    },
-    {
-        title: "Portfolio 2019",
-        img: 'assets/crew-4Hg8LH9Hoxc-unsplash.jpg',
-        webpage: "https://wroclawianka.github.io/portfolio",
-        repo: "https://github.com/wroclawianka/portfolio",
-        stack: ['REACT', 'JS', 'HTML/CSS']
+        stack: ['ANGULAR', 'TS', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Prague with my eyes",
         img: 'assets/wojtek-witkowski-1fpyA_z2woY-unsplash.jpg',
         webpage: 'https://praha-blog.netlify.com/',
         repo: 'https://github.com/wroclawianka/BlogApi/tree/master/Blog2.0/blog2.0',
-        stack: ['ANGULAR', 'TS', 'HTML/CSS']
+        stack: ['ANGULAR', 'TS', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Book List",
         img: 'assets/lou-levit-XiCZpdoX4lE-unsplash.jpg',
         webpage: 'https://book-list-dorota-zelga.netlify.com/',
         repo: 'https://github.com/wroclawianka/book-list-assignment',
-        stack: ['REACT', 'JS', 'HTML/CSS', 'BOOTSTRAP']
+        stack: ['REACT', 'JS', 'HTML/CSS', 'BOOTSTRAP'],
+        year: '2018',
     },
     {
         title: "Graphical Dashboard",
         img: 'assets/carlos-muza-hpjSkU2UYSU-unsplash.jpg',
         webpage: 'https://graphical-dashboard.netlify.com/',
         repo: 'https://github.com/wroclawianka/graphical-dashboard',
-        stack: ['JS', 'HTML/CSS']
+        stack: ['JS', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Ordering App",
         img: 'assets/david-clarke-wQSe8GKVKoE-unsplash.jpg',
         repo: 'https://github.com/wroclawianka/ordering-assignment',
         yt: 'https://youtu.be/-aCDjMuvmGE',
-        stack: ['REACT', 'JS', 'HTML/CSS']
+        stack: ['REACT', 'JS', 'HTML/CSS'],
+        year: '2018',
     },
     {
-        title: "Portfolio 2018",
+        title: "Portfolio #1",
         img: 'assets/temple-cerulean-tP8ZwlCF8og-unsplash.jpg',
         webpage: "https://wroclawianka.github.io/portfolio-2018/",
         repo: "https://github.com/wroclawianka/portfolio-2018",
-        stack: ['JQUERY', 'JS', 'HTML/CSS']
+        stack: ['JQUERY', 'JS', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Binary Calculator",
         img: 'assets/agence-producteurs-locaux-damien-kuhn-d-pPg9pnZRY-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/binary-calculator/',
         repo: 'https://github.com/wroclawianka/binary-calculator',
-        stack: ['JQUERY', 'JS', 'BOOTSTRAP', 'HTML/CSS']
+        stack: ['JQUERY', 'JS', 'BOOTSTRAP', 'HTML/CSS'],
+        year: '2018',
     },
     {
         title: "Workshop Website",
         img: 'assets/maksym-kaharlytskyi-ERt5AiGT7Xg-unsplash.jpg',
         webpage: 'https://wroclawianka.github.io/car-service-webpage/',
         repo: 'https://github.com/wroclawianka/car-service-webpage',
-        stack: ['JQUERY', 'JS', 'HTML/CSS']
+        stack: ['JQUERY', 'JS', 'HTML/CSS'],
+        year: '2018',
     },
 ];
 
@@ -231,6 +245,7 @@ class Portfolio extends Component {
                                 repo={project.repo}
                                 yt={project.yt}
                                 label={project.label}
+                                year={project.year}
                                 key={project.title} />
                         )}
                 </div>
