@@ -122,3 +122,24 @@ a:hover {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
+
+
+/* .triangle-one {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 152px;
+    border-top: 76px solid #54cab8;
+    border-right: 171px solid transparent;
+    transform: rotate3d(1, 1, 1, 46deg);
+}
+
+.triangle-two {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 200px;
+    border-top: 50px solid red;
+    border-right: 200px solid transparent;
+    transform: rotate3d(1, 1, 1, 46deg);
+} */
