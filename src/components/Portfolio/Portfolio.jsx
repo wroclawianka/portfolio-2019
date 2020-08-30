@@ -251,7 +251,9 @@ class Portfolio extends Component {
                 </div>
                 {(this.state.maxLength > this.state.length) ? <div className="show-more animated animatedFadeInUp fadeInUp">
                     <div className="show-more-inside">
-                        <p className="show-more-content" onClick={this.clickMore}><a>More</a></p>
+                        <p className="show-more-content" onClick={this.clickMore}>
+                            <a>More projects</a>
+                        </p>
                     </div>
                 </div> : null}
             </div>
