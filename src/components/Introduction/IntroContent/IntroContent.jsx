@@ -6,10 +6,9 @@ const options = [
         id: 'i_1', className: 'content1', renderContent: () => {
             return (
                 <p>
-                    I am a <strong>Front-end developer</strong> with such skills as <strong>Angular
-                </strong>, <strong>React</strong>, <strong>JavaScript</strong>, <strong>TypeScript</strong> and
-                    more. I am a huge <strong>agile enthusiast</strong> and I believe in the
-                    <strong> power of teamwork</strong>!
+                    I am a <strong>Front-end developer</strong> with such skills as <strong>React
+                    </strong>, <strong>Redux</strong>, <strong>TypeScript</strong> and more.
+                    I am an agile enthusiast and I believe in the power of teamwork
                 </p>
             )
         }
@@ -18,9 +17,8 @@ const options = [
         id: 'i_2', className: 'content2', renderContent: () => {
             return (
                 <p>
-                    I am working in IT since <strong>2014</strong>, being part of <strong>international
-                    teams</strong> from various countries. In <strong>mid-2018</strong> I started my journey with
-                    front-end development.
+                    I am working in IT since <strong>2014</strong>, being part of international and multidisciplinary teams.
+                    In <strong>mid-2018</strong> I started my journey with front-end development
                 </p>
             )
         }
@@ -29,9 +27,9 @@ const options = [
         id: 'i_3', className: 'content3', renderContent: () => {
             return (
                 <p>
-                    I am a well-organized person with <strong>plenty of motivation </strong>and I consider myself a
-                    <strong> good self-learner</strong>. I do not afraid of relocation and challenges at work.
-                    <strong> Scroll down</strong> to find a couple of my <strong>personal projects</strong>!
+                    I am a well-organized person with plenty of motivation and I consider myself a
+                    good self-learner.
+                    <strong> Scroll down</strong> to find a couple of my <strong>personal projects</strong>
                 </p>
             )
         }
