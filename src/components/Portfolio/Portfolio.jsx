@@ -19,19 +19,21 @@ const technologies = [
 ];
 
 const projects = [
-    // {
-    //     title: "Personal dashboard",
-    //     img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
-    //     repo: "",
-    //     stack: ['REACT', 'REDUZ', 'JS']
-    // },
+    {
+        title: "Vote for me",
+        img: 'assets/scott-graham-OQMZwNd3ThU-unsplash.jpg',
+        webpage: "https://wroclawianka.github.io/vote-for-me/",
+        repo: "https://github.com/wroclawianka/vote-for-me",
+        stack: ['REACT', 'REDUX', 'TS', 'HTML/CSS'],
+        label: 'React & Redux',
+        year: '2022',
+    },
     {
         title: "Groceries List",
         img: 'assets/charisse-kenion-Ycg-qnn7XEM-unsplash.jpg',
         repo: "https://github.com/wroclawianka/groceries-app",
         yt: 'https://youtu.be/r-y8D6FmHk0',
         stack: ['REACT', 'REDUX', 'NODEJS', 'MONGO', 'MATERIAL UI', 'HTML/CSS'],
-        label: 'React & Redux',
         year: '2020',
     },
     {
