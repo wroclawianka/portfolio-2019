@@ -11,6 +11,7 @@ const technologies = [
     { value: 'TS', label: 'TypeScript' },
     { value: 'JS', label: 'JavaScript' },
     { value: 'REDUX', label: 'Redux' },
+    { value: 'REACT_QUERY', label: 'React-Query' },
     { value: 'NGRX', label: 'ngrx' },
     { value: 'JQUERY', label: 'jQuery' },
     { value: 'HTML/CSS', label: 'HTML/CSS' },
@@ -26,6 +27,14 @@ const projects = [
         repo: "https://github.com/wroclawianka/vote-for-me",
         stack: ['REACT', 'REDUX', 'TS', 'HTML/CSS'],
         label: 'React & Redux',
+        year: '2022',
+    },
+    {
+        title: "Dynamic Table",
+        img: 'assets/christopher-burns-Kj2SaNHG-hg-unsplash.jpg',
+        webpage: "https://wroclawianka.github.io/dynamic-table/",
+        repo: "https://github.com/wroclawianka/dynamic-table",
+        stack: ['REACT', 'REACT-QUERY', 'TS', 'HTML/CSS'],
         year: '2022',
     },
     {
