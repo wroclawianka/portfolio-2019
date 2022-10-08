@@ -32,7 +32,7 @@ const projects = [
     {
         title: "Dynamic Table",
         img: 'assets/christopher-burns-Kj2SaNHG-hg-unsplash.jpg',
-        webpage: "https://wroclawianka.github.io/dynamic-table/",
+        // webpage: "https://wroclawianka.github.io/dynamic-table/",
         repo: "https://github.com/wroclawianka/dynamic-table",
         stack: ['REACT', 'REACT-QUERY', 'TS', 'HTML/CSS'],
         year: '2022',
@@ -48,7 +48,7 @@ const projects = [
     {
         title: "Crypto Tracker",
         img: 'assets/andre-francois-mckenzie-vh7U_Z75L3U-unsplash.jpg',
-        webpage: 'https://wroclawianka.github.io/crypto-tracker',
+        // webpage: 'https://wroclawianka.github.io/crypto-tracker',
         repo: "https://github.com/wroclawianka/crypto-tracker",
         stack: ['ANGULAR', 'NGRX', 'MATERIAL UI', 'HTML/CSS'],
         label: 'Angular & ngrx',
