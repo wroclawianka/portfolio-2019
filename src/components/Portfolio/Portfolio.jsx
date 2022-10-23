@@ -74,8 +74,8 @@ const projects = [
     {
         title: "Portfolio #2",
         img: 'assets/crew-4Hg8LH9Hoxc-unsplash.jpg',
-        webpage: "https://wroclawianka.github.io/portfolio",
-        repo: "https://github.com/wroclawianka/portfolio",
+        webpage: "https://wroclawianka.github.io/portfolio-2019",
+        repo: "https://github.com/wroclawianka/portfolio-2019",
         stack: ['REACT', 'JS', 'HTML/CSS'],
         year: '2019',
     },

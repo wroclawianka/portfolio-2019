@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wroclawianka.github.io/portfolio",
+  "homepage": "https://wroclawianka.github.io/portfolio-2019",
   "dependencies": {
     "@babel/runtime": "^7.6.0",
     "react": "^16.9.0",
